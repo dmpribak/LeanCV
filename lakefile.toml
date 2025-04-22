@@ -1,0 +1,14 @@
+name = "LeanCV"
+version = "0.1.0"
+defaultTargets = ["leancv"]
+
+[[lean_lib]]
+name = "LeanCV"
+
+[[lean_exe]]
+name = "leancv"
+root = "Main"
+
+[[require]]
+name = "scilean"
+scope = "lecopivo"
